@@ -26,7 +26,7 @@ curl -d '{"url":"google.com"}' -H "Content-Type: application/json" \
 #### Vanity URL
 
 ```sh
-curl -d '{"url":"google.com", "requested_url":"barbie"}' -H "Content-Type: application/json" \
+curl -d '{"url":"google.com", "short_code":"barbie"}' -H "Content-Type: application/json" \
 -X POST http://localhost:5000/shorten
 ```
 
